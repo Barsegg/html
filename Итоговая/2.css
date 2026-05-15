@@ -1,0 +1,30 @@
+html,body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow: hidden;
+  background: black;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+.bg {
+  position: fixed;
+  inset: 0;
+  background: no-repeat center/cover url('./unico-uni-unicouniuni3 (1).gif');
+  z-index: -1;
+}
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 0;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./cover.jpg') no-repeat center/cover;
+}

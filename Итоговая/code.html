@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Секретный код</title>
+  <link rel="stylesheet" href="./.css">
+  <link rel="icon" href="Kuhnya2.png" type="image/png">
+</head>
+
+<body>
+  <main class="site-main">
+    <marquee class="site-marquee" behavior="scroll" direction="left" scrollamount="5">Добро пожаловать в секретное место! Введите код, чтобы узнать секрет. Добро пожаловать в секретное место! Введите код, чтобы узнать секрет. Добро пожаловать в секретное место! Введите код, чтобы узнать секрет. Добро пожаловать в секретное место! Введите код, чтобы узнать секрет. Добро пожаловать в секретное место! Введите код, чтобы узнать секрет. Добро пожаловать в секретное место! Введите код, чтобы узнать секрет. Добро пожаловать в секретное место! Введите код, чтобы узнать секрет.</marquee>
+    <div class="container">
+      <section class="login-form-section">
+        <form id="secret-form" class="login-form">
+          <h2>Секретка</h2>
+          <div class="field">
+            <label for="secret-code">Введите код</label>
+            <input id="secret-code" name="secret-code" type="text" autocomplete="off" required placeholder="Код">
+          </div>
+          <button type="submit" class="btn btn-accent">Проверить</button>
+          <div id="secret-message" class="msg"></div>
+        </form>
+
+        <form id="rickroll-form" class="login-form">
+          <h2>Секретка 2</h2>
+          <div class="field">
+            <label for="rickroll-code">Введите код</label>
+            <input id="rickroll-code" name="rickroll-code" type="text" autocomplete="off" required placeholder="Код">
+          </div>
+          <button type="submit" class="btn btn-accent">Проверить</button>
+          <div id="rickroll-message" class="msg"></div>
+        </form>
+
+        <a href="./AccountEntering.html" class="btn btn-outline">Вернуться</a>
+      </section>
+    </div>
+
+  </main>
+  <script src="./code.js"></script>
+</body>
+</html>
